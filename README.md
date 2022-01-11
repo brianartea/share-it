@@ -1,4 +1,4 @@
 # ShareIt Social Media Application
-![ShareMe](https://i.ibb.co/8cLfj3X/image.png)
+![ShareIt](https://expertdesign.cc/share-it/screenshot.jpg)
 
 Using React, Tailwind & Sanity, a Full Stack Social Media Application.
