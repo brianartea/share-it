@@ -127,7 +127,7 @@ const PinDetail = ({ user }) => {
                 className="bg-red-500 text-white rounded-full px-6 py-2 font-semibold text-base outline-none"
                 onClick={addComment}
               >
-                {addingComment ? 'Doing...' : 'Done'}
+                {addingComment ? 'Adding Comment...' : 'Add Comment'}
               </button>
             </div>
           </div>
@@ -141,7 +141,7 @@ const PinDetail = ({ user }) => {
       {pins ? (
         <MasonryLayout pins={pins} />
       ) : (
-        <Spinner message="Loading more pins" />
+        <Spinner message="Loading more pins..." />
       )}
     </>
   );
