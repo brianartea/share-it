@@ -5,25 +5,24 @@ import { IoIosArrowForward } from 'react-icons/io';
 import logo from '../assets/logo.png';
 import { categories } from '../utils/data';
 
-const isNotActiveStyle = 'flex items-center px-5 gap-3 text-gray-500 hover:text-black transition-all duration-200 ease-in-out capitalize';
-const isActiveStyle = 'flex items-center px-5 gap-3 font-extrabold border-r-2 border-black  transition-all duration-200 ease-in-out capitalize';
+const isNotActiveStyle = 'flex items-center px-5 py-1 gap-2 text-gray-500 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-black hover:bg-gray-100 transition-all duration-100 ease-in-out capitalize';
+const isActiveStyle = 'flex items-center px-5 py-1 gap-2 font-extrabold border-r-4 border-red-500 dark:border-red-600 dark:bg-gray-700 bg-gray-100 transition-all duration-100 ease-in-out capitalize';
 
 const Sidebar = ({ closeToggle, user }) => {
   const handleCloseSidebar = () => {
     if (closeToggle) closeToggle(false);
   };
-
   return (
-    <div className="flex flex-col justify-between bg-white h-full overflow-y-scroll min-w-210 hide-scrollbar">
+    <div className="flex flex-col justify-between dark:border-r-2 dark:border-gray-300 bg-white dark:bg-gray-800 h-full overflow-y-scroll min-w-[100%] hide-scrollbar">
       <div className="flex flex-col">
         <Link
           to="/"
-          className="flex px-5 gap-2 my-6 pt-1 w-190 items-center"
+          className="flex px-5 gap-2 my-5 pb-2 mt-6 w-190 items-center"
           onClick={handleCloseSidebar}
         >
           <img src={logo} alt="logo" className="w-full" />
         </Link>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 dark:text-gray-300">
 
           <NavLink
             to="/"
@@ -33,7 +32,7 @@ const Sidebar = ({ closeToggle, user }) => {
             <RiHomeFill />
             Home
           </NavLink>
-          <h3 className="mt-2 px-5 text-base 2xl:text-xl">Discover cateogries</h3>
+          <h3 className="mt-2 px-5 text-lg 2xl:text-xl dark:text-gray-300">Discover cateogries</h3>
           {categories.slice(0, categories.length - 1).map((category) => (
             <NavLink
               to={`/category/${category.name}`}
@@ -50,7 +49,7 @@ const Sidebar = ({ closeToggle, user }) => {
       {user && (
         <Link
           to={`user-profile/${user._id}`}
-          className="flex my-5 mb-3 gap-2 p-2 items-center bg-white rounded-lg shadow-lg mx-3"
+          className="flex my-5 mb-3 gap-2 p-2 items-center bg-white hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-300 rounded-lg shadow-lg mx-3"
           onClick={handleCloseSidebar}
         >
           <img src={user.image} className="w-10 h-10 rounded-full" alt="user-profile" />

@@ -74,7 +74,7 @@ const Pin = ({ pin }) => {
                   onClick={(e) => {
                     e.stopPropagation();
                   }}
-                  className="bg-white w-9 h-9 p-2 rounded-full flex items-center justify-center text-dark text-xl opacity-75 hover:opacity-100 hover:shadow-md outline-none"
+                  className="bg-white dark:bg-red-600 dark:text-gray-100 w-9 h-9 p-2 rounded-full flex items-center justify-center text-dark text-xl opacity-75 hover:opacity-100 hover:shadow-md outline-none"
                 ><MdDownloadForOffline />
                 </a>
               </div>
@@ -95,16 +95,16 @@ const Pin = ({ pin }) => {
                 </button>
               )}
             </div>
-            <div className=" flex justify-between items-center gap-2 w-full">
+            <div className="flex justify-between items-center gap-2 w-full">
               {destination?.slice(8).length > 0 ? (
                 <a
                   href={destination}
                   target="_blank"
-                  className="bg-white flex items-center gap-2 text-black font-bold p-2 pl-4 pr-4 rounded-full opacity-70 hover:opacity-100 hover:shadow-md"
+                  className="bg-white dark:bg-red-600 flex items-center gap-2 dark:text-gray-100 text-black font-bold p-2 pl-4 pr-4 rounded-full opacity-70 hover:opacity-100 hover:shadow-md"
                   rel="noreferrer"
                 >
                   {' '}
-                  <BsFillArrowUpRightCircleFill />
+                  <BsFillArrowUpRightCircleFill className="" />
                   {destination?.slice(8, 17)}...
                 </a>
               ) : undefined}
@@ -116,7 +116,7 @@ const Pin = ({ pin }) => {
                e.stopPropagation();
                deletePin(_id);
              }}
-             className="bg-white p-2 rounded-full w-8 h-8 flex items-center justify-center text-dark opacity-75 hover:opacity-100 outline-none"
+             className="bg-white dark:bg-red-600 dark:text-gray-100 p-2 rounded-full w-8 h-8 flex items-center justify-center text-dark opacity-75 hover:opacity-100 outline-none"
            >
              <AiTwotoneDelete />
            </button>
