@@ -120,7 +120,7 @@ const UserProfile = () => {
         </div>
 
         {pins?.length === 0 && (
-        <div className="flex justify-center dark:text-gray-100 font-bold items-center w-full text-1xl mt-2">
+        <div className="flex justify-center dark:text-gray-100 font-bold items-center w-full text-xl mt-2">
           No Pins Found!
         </div>
         )}

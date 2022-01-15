@@ -19,7 +19,7 @@ const Navbar = ({ searchTerm, setSearchTerm, user }) => {
             className="p-2 w-full bg-white dark:bg-gray-800 dark:text-white outline-none"
           />
         </div>
-        <div className="flex gap-3 dark:bg-gray-900">
+        <div title="Add a Pin" className="flex gap-3 dark:bg-gray-900">
           <Link to={`user-profile/${user?._id}`} className="hidden md:block">
             <img src={user.image} alt="user-pic" className="w-14 h-12 rounded-full " />
           </Link>
