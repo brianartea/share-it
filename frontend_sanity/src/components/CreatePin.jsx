@@ -80,8 +80,8 @@ const CreatePin = ({ user }) => {
       {fields && (
         <p className="text-red-500 mb-5 text-xl transition-all duration-150 ease-in ">Please add all fields.</p>
       )}
-      <div className=" flex lg:flex-row flex-col justify-center items-center bg-white lg:p-5 p-3 lg:w-4/5 dark:bg-gray-700 w-full">
-        <div className="bg-secondaryColor dark:bg-gray-600 p-3 flex flex-0.7 w-full">
+      <div className=" flex lg:flex-row flex-col justify-center items-center bg-white lg:p-5 p-3 lg:w-4/5 dark:bg-gray-800 w-full">
+        <div className="bg-secondaryColor dark:bg-gray-700 p-3 flex flex-0.7 w-full">
           <div className=" flex justify-center items-center flex-col border-2 border-dotted border-gray-300 p-3 w-full h-420">
             {loading && (
               <Spinner />
@@ -138,10 +138,10 @@ const CreatePin = ({ user }) => {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             placeholder="Add your title"
-            className="outline-none text-2xl sm:text-3xl font-bold border-b-2 border-gray-200 dark:bg-gray-700 p-2"
+            className="outline-none text-2xl sm:text-3xl font-bold border-b-2 border-gray-200 dark:bg-gray-800 p-2"
           />
           {user && (
-            <div className="flex gap-2 mt-2 mb-2 items-center bg-white dark:bg-gray-700 rounded-lg ">
+            <div className="flex gap-2 mt-2 mb-2 items-center bg-white dark:bg-gray-800 rounded-lg ">
               <img
                 src={user.image}
                 className="w-10 h-10 rounded-full"
@@ -155,14 +155,14 @@ const CreatePin = ({ user }) => {
             value={about}
             onChange={(e) => setAbout(e.target.value)}
             placeholder="Tell everyone what your Pin is about"
-            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:bg-gray-700"
+            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:bg-gray-800"
           />
           <input
             type="url"
             vlaue={destination}
             onChange={(e) => setDestination(e.target.value)}
             placeholder="Add a destination link"
-            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:bg-gray-700"
+            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:bg-gray-800"
           />
 
           <div className="flex flex-col">
@@ -172,11 +172,11 @@ const CreatePin = ({ user }) => {
                 onChange={(e) => {
                   setCategory(e.target.value);
                 }}
-                className="outline-none w-4/5 text-base border-b-2 border-gray-200 p-2 rounded-md cursor-pointer dark:bg-gray-700"
+                className="outline-none w-4/5 text-base border-b-2 border-gray-200 p-2 rounded-md cursor-pointer dark:bg-gray-800"
               >
                 <option value="others" className="sm:text-bg bg-white">Select Category</option>
                 {categories.map((item) => (
-                  <option className="text-base border-0 outline-none capitalize bg-white dark:bg-gray-700 text-black dark:text-gray-100 " value={item.name}>
+                  <option className="text-base border-0 outline-none capitalize bg-white dark:bg-gray-800 text-black dark:text-gray-100 " value={item.name}>
                     {item.name}
                   </option>
                 ))}
