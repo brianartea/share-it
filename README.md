@@ -6,7 +6,7 @@
 ## A Full Stack Social Media Application totally responsive using React, Tailwind & Sanity.io
 
 - Google login authentication
-- Photo/graphic upload app with darkmode/lightmode depending on the users computer/phone is set to dark or light mode.
+- Photo/graphic upload app with darkmode/lightmode depending on if the users computer/phone is set to dark or light mode.
 - where you can upload an image, add a title, a description, a link and a category dropdown to select from.
 - Anyone can leave a comment on the photo/graphic you uploaded. 
 - The photos/graphics can be liked and show up on your profile page under likes. 
