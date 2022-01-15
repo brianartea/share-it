@@ -3,7 +3,7 @@
 ## Darkmode
 ![ShareIt](https://expertdesign.cc/share-it/screenshot-darkmode.jpg)
 
-## A Full Stack Social Media Application totally responsive using React, Tailwind & Sanity.io
+## A Full Stack Social Media Application totally responsive using React, Tailwind, Sanity.io and Goodle Authentication.
 
 - Google login authentication
 - Photo/graphic upload app with darkmode/lightmode depending on if the users computer/phone is set to dark or light mode.
