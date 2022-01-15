@@ -7,7 +7,8 @@
 
 - Google login authentication
 - Photo/graphic upload app with darkmode/lightmode depending on if the users computer/phone is set to dark or light mode.
-- You can upload an image, add a title, a description, a link and a category dropdown to select from.
+- The Search Bar works fantastic.
+- You can upload an image, add a title, a description, a link and a category dropdown to select from so it gets added to that category.
 - Anyone can leave a comment on the photo/graphic you uploaded. 
 - The photos/graphics can be Saved and show up on your profile page under Saved.
 - On your profile page you can logout from the upper right corner logout icon.
