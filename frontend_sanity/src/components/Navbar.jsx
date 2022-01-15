@@ -23,6 +23,8 @@ const Navbar = ({ searchTerm, setSearchTerm, user }) => {
           <Link to={`user-profile/${user?._id}`} className="hidden md:block">
             <img src={user.image} alt="user-pic" title="User Image" className="w-14 h-12 rounded-full " />
           </Link>
+          {/* TODO: make + button a little nicer */}
+          {/* FIXME: make + button a little nicer  */}
           <Link to="/create-pin" title="Add a Pin" className="bg-gray-700 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg w-12 h-12 md:w-14 md:h-12 flex justify-center items-center">
             <IoMdAdd />
           </Link>
