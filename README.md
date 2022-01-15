@@ -16,3 +16,5 @@
 - Also notice you can delete any of your posts/pins but not anyone else's. 
 - Add pins by clicking on the plus in the right top of app to upload your image and details.
 - If you don't want to add a link just type a letter and it won't show up.
+
+![ShareIt Youtube Video](https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s)
