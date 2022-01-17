@@ -1,6 +1,6 @@
 # ShareIt Social Media Application
 
-## Darkmode
+## Lightmode
 ![ShareIt](https://expertdesign.cc/share-it/screenshot-lightmode.jpg)
 ## Darkmode
 ![ShareIt](https://expertdesign.cc/share-it/screenshot-darkmode.jpg)
