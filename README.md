@@ -16,6 +16,6 @@
 - You can view other users profiles and see what they posted and saved. 
 - Also notice you can delete any of your posts/pins but not anyone else's. 
 - Add pins by clicking on the plus in the right top of app to upload your image and details.
-- If you don't want to add a link just type a letter and it won't show up.
+- If you don't want to add a link while adding the title and description just type a letter and it won't show up.
 
 ### Youtube Tutorial on this app: https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s
