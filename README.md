@@ -1,9 +1,21 @@
 # ShareIt Social Media Application
 
-## Lightmode
+## Lightmode Homepage
 ![ShareIt](https://expertdesign.cc/share-it/screenshot-lightmode.jpg)
-## Darkmode
+## Darkmode Homepage
 ![ShareIt](https://expertdesign.cc/share-it/screenshot-darkmode.jpg)
+
+## Lightmode Add a Pin/Image Page
+![ShareIt](https://expertdesign.cc/share-it/screenshot-upload-image--page-lightmode.jpg)
+
+## Darkmode Add a Pin/Image Page
+![ShareIt](https://expertdesign.cc/share-it/screenshot-upload-image--page-darkmode.jpg)
+
+## Lightmode User Profile Page
+![ShareIt](https://expertdesign.cc/share-it/screenshot-user-profile-page-lightmode.jpg)
+
+## Darkmode User Profile Page
+![ShareIt](https://expertdesign.cc/share-it/screenshot-user-profile-page-darkmode.jpg)
 
 ## A Full Stack Social Media Application totally responsive using React, Tailwind, Sanity.io and Google Authentication.
 
