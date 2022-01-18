@@ -138,7 +138,7 @@ const CreatePin = ({ user }) => {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             placeholder="Add your title"
-            className="outline-none text-2xl sm:text-3xl font-bold border-b-2 border-gray-200 dark:bg-gray-800 p-2"
+            className="outline-none text-2xl sm:text-3xl font-bold border-b-2 border-gray-200 dark:border-gray-600 dark:bg-gray-800 p-2"
           />
           {user && (
             <div className="flex gap-2 mt-2 mb-2 items-center bg-white dark:bg-gray-800 rounded-lg ">
@@ -155,24 +155,24 @@ const CreatePin = ({ user }) => {
             value={about}
             onChange={(e) => setAbout(e.target.value)}
             placeholder="Tell everyone what your Pin is about"
-            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:bg-gray-800"
+            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:border-gray-600 dark:bg-gray-800"
           />
           <input
             type="url"
             vlaue={destination}
             onChange={(e) => setDestination(e.target.value)}
             placeholder="Add a destination link"
-            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:bg-gray-800"
+            className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2 dark:border-gray-600 dark:bg-gray-800"
           />
 
           <div className="flex flex-col">
             <div>
-              <p className="mb-2 font-semibold text:lg sm:text-xl">Choose Pin Category</p>
+              <p className="mb-2 font-semibold text-gray-700 dark:text-gray-300 text:lg sm:text-xl">Choose Pin Category</p>
               <select
                 onChange={(e) => {
                   setCategory(e.target.value);
                 }}
-                className="outline-none w-4/5 text-base border-b-2 border-gray-200 p-2 rounded-md cursor-pointer dark:bg-gray-800"
+                className="outline-none w-4/5 text-base border-b-2 border-gray-200 dark:border-gray-600 p-2 rounded-md cursor-pointer dark:bg-gray-800"
               >
                 <option value="others" className="sm:text-bg bg-white">Select Category</option>
                 {categories.map((item) => (
@@ -186,7 +186,7 @@ const CreatePin = ({ user }) => {
               <button
                 type="button"
                 onClick={savePin}
-                className="bg-red-500 hover:bg-red-700 text-white font-bold p-2 rounded-full w-28 outline-none"
+                className="bg-red-600 hover:bg-red-700 text-white font-bold p-2 rounded-full w-28 outline-none"
               >
                 Save Pin
               </button>
