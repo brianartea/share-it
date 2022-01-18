@@ -35,6 +35,8 @@
 - Add pins by clicking on the plus in the right top of app to upload your image and details.
 - If you don't want to add a link while adding the title and description just type a letter and it won't show up.
 
+[Youtube Tutorial on this app](https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s)
+
 ### First off let's setup our backend with Sanity.io I reccomend downloading the zip or cloning the whole project and inside the Terminal cd into backend_sanity run:
 `npm install` 
 or
@@ -72,5 +74,6 @@ or
 `sanity start`
 ### Now notice the Desk looks different with Content, User, Pin, Comment and Save. You can add stuff through the Desk, we may add one but our database is hooked and ready to go! 
 ### Now we are going inside the frontend_sanity folder. We will hook that up to the backend shortly.
+### If you used the folders above Tailwind CSS gets installed automatically through the package.json when you ran npm install or yarn inside the frontend_sanity folder.
 
-### Youtube Tutorial on this app: https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s
+[Youtube Tutorial on this app](https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s)
