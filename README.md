@@ -35,7 +35,9 @@
 - Add pins by clicking on the plus in the right top of app to upload your image and details.
 - If you don't want to add a link while adding the title and description just type a letter and it won't show up.
 
-### First off let's setup Sanity
+### First off let's setup Sanity.
+
+`cd backend_sanity`
 
 `npm install --global @sanity/cli &&`
 
