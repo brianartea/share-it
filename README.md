@@ -43,11 +43,13 @@
 
 `sanity init`
 
-### The Terminal will ask a few questions.
+### The Terminal will ask a few questions:
 ### Press enter for Google and a Login Successful tab will open. You can go ahead and close that tab.
 ### Back in the Terminal press enter on Create new project. It will ask you to name the project, I will name it shareit
 ### Press Y to use the default data configuration.
 ### Just press enter on Project output path.
 ### Last we will choose Clean project with no predefined schemas and press enter. Now the project default files are being created.
+### Next run this command in your Terminal:
+`sanity start`
 
 ### Youtube Tutorial on this app: https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s
