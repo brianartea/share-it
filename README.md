@@ -71,5 +71,6 @@ or
 ### Now run the command in your Terminal and the Desk page pops up:
 `sanity start`
 ### Now notice the Desk looks different with Content, User, Pin, Comment and Save. You can add stuff through the Desk, we may add one but our database is hooked and ready to go! 
+### Now we are going inside the frontend_sanity folder. We will hook that up to the backend shortly.
 
 ### Youtube Tutorial on this app: https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s
