@@ -35,12 +35,19 @@
 - Add pins by clicking on the plus in the right top of app to upload your image and details.
 - If you don't want to add a link while adding the title and description just type a letter and it won't show up.
 
-### First off let's setup Sanity.
+### First off let's setup our backend with Sanity.io
 
 `cd backend_sanity`
 
 `npm install --global @sanity/cli &&`
 
 `sanity init`
+
+### The Terminal will ask a few questions.
+### Press enter for Google and a Login Successful tab will open. You can go ahead and close that tab.
+### Back in the Terminal press enter on Create new project. It will ask you to name the project, I will name it shareit
+### Press Y to use the default data configuration.
+### Just press enter on Project output path.
+### Last we will choose Clean project with no predefined schemas and press enter. Now the project default files are being created.
 
 ### Youtube Tutorial on this app: https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s
