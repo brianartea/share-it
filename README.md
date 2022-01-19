@@ -37,7 +37,7 @@
 
 [Youtube Tutorial on this app](https://www.youtube.com/watch?v=1RHDhtbqo94&t=2893s)
 
-### First off let's setup our backend with Sanity.io I reccomend downloading the zip or cloning the whole project and inside the Terminal cd into backend_sanity run:
+### First off let's setup our backend with Sanity.io I reccomend downloading the zip or cloning the whole project and inside the Terminal cd into backend_sanity and run:
 `npm install` 
 or
 `yarn`
@@ -45,7 +45,9 @@ or
 `npm install` 
 or
 `yarn`
-
+### Now type
+`cd ..`
+### To get you back into the main directory of app.
 ### Now do the following:
 
 `cd backend_sanity`
