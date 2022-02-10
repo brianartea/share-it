@@ -45,9 +45,8 @@ or
 `npm install` 
 or
 `yarn`
-### Now type
+### Copy and paste the below and press enter to get you back into the main directory of app.
 `cd ..`
-### To get you back into the main directory of app.
 ### Now do the following:
 
 `cd backend_sanity`
@@ -72,7 +71,7 @@ or
 ### Now it popped up our Sanity Overview page. Close that we don't need that right now, that was just to make sure everything is hooked up and working correctly.
 ### Now it's time to make the 6 schemas needed. Inside the schemas folder inside of the backend_sanity folder.
 ### I suggest copying the schemas folder and the 6 different files in it as it is a little tedious.
-### Now run the command in your Terminal and the Desk page pops up:
+### Now after copying the files run the command below in your Terminal and the Desk page pops up:
 `sanity start`
 ### Now notice the Desk looks different with Content, User, Pin, Comment and Save. You can add stuff through the Desk, we may add one but our database is hooked and ready to go! 
 ### Now we are going inside the frontend_sanity folder. We will hook that up to the backend shortly.
